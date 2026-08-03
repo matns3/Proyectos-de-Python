@@ -1,0 +1,22 @@
+#Create toolbox to work with images and videos
+import cv2
+
+#Load image
+img = cv2.imread("wallpaper.jpg")
+"""
+.imread = load image
+"""
+
+#Show image
+cv2.imshow("wallpaper.jpg", img)
+"""
+.imshow = show image
+img = show image in the "img" variable
+"""
+
+#Keep window open until key press
+cv2.waitKey(0)
+"""
+.waitKey = keep window open until key press
+0 = wait indefinitely
+"""
